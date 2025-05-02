@@ -1,7 +1,9 @@
-HEAD
+
 .classpath
 .project
 .settings/
 bin/
 logs/
+<<<<<<< HEAD
 target/
+

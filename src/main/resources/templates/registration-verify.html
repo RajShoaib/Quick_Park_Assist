@@ -129,7 +129,7 @@ function startTimer(duration) {
 
 // Check if timer should start (based on last resend time)
 window.onload = function() {
-    const lastResendTime = [[${session.lastOtpResendTime}]];
+    const lastResendTime = 0;
     if (lastResendTime) {
         const timeElapsed = Date.now() - lastResendTime;
         const remainingTime = Math.ceil((30000 - timeElapsed) / 1000);
